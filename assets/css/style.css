@@ -305,6 +305,9 @@ h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
+.navbar-mobile ul li {
+  margin: 8px 0;
+}
 
 .navbar-mobile>ul>li>a:before {
   left: 20px;
@@ -312,7 +315,7 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 16px 20px;
   font-size: 16px;
   color: #0205a1;
 }
