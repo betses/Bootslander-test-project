@@ -1,6 +1,6 @@
 # 📗 Bootslander-test-project
 
-This is a readme file for the Bootslander test project. It provides information about the identified issues and their respective fixes. Below are the details:
+This is Bootslander test project. It provides information about the identified issues and their respective fixes. Below are the details:
 
 ## 🚀 Live Demo<a name="live-demo"></a>
 
