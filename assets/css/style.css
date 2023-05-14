@@ -54,6 +54,7 @@ h6 {
   font-size: 28px;
   color: #fff;
   line-height: 0;
+  padding: 8px;
 }
 
 .back-to-top:hover {
@@ -262,6 +263,7 @@ h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  padding: 4px;
 }
 
 @media (max-width: 991px) {
@@ -305,6 +307,9 @@ h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
+.navbar-mobile ul li {
+  margin: 8px 0;
+}
 
 .navbar-mobile>ul>li>a:before {
   left: 20px;
@@ -312,7 +317,7 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 16px 20px;
   font-size: 16px;
   color: #0205a1;
 }
@@ -418,7 +423,7 @@ h6 {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 16px 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
@@ -680,9 +685,10 @@ section {
 .features .icon-box {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background: #f5f5ff;
   transition: ease-in-out 0.3s;
+  min-height: 100%;
 }
 
 .features .icon-box i {
@@ -702,6 +708,8 @@ section {
 .features .icon-box h3 a {
   color: #010483;
   transition: ease-in-out 0.3s;
+  padding:16px;
+  display:inline-block;
 }
 
 .features .icon-box h3 a:hover {
@@ -982,6 +990,11 @@ section {
   font-size: 16px;
   margin: 0 8px;
 }
+@media (max-width: 991px) { 
+  .team .member .social i {
+  padding: 16px;
+}
+}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1091,6 +1104,11 @@ section {
   padding: 1px 0 3px 0;
   background: #1acc8d;
   color: #fff;
+}
+@media (max-width: 991px) { 
+  .pricing .btn-buy {
+    padding: 16px 35px 16px 35px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1300,6 +1318,12 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #34e5a6;
+}
+
+@media (max-width: 1200px) {
+  .contact .php-email-form button[type=submit] {
+    padding: 16px 30px;
+  }
 }
 
 @keyframes animate-loading {
