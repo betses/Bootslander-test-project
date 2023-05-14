@@ -54,6 +54,7 @@ h6 {
   font-size: 28px;
   color: #fff;
   line-height: 0;
+  padding: 8px;
 }
 
 .back-to-top:hover {
@@ -989,6 +990,11 @@ section {
   font-size: 16px;
   margin: 0 8px;
 }
+@media (max-width: 991px) { 
+  .team .member .social i {
+  padding: 16px;
+}
+}
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1098,6 +1104,11 @@ section {
   padding: 1px 0 3px 0;
   background: #1acc8d;
   color: #fff;
+}
+@media (max-width: 991px) { 
+  .pricing .btn-buy {
+    padding: 16px 35px 16px 35px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1307,6 +1318,12 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #34e5a6;
+}
+
+@media (max-width: 1200px) {
+  .contact .php-email-form button[type=submit] {
+    padding: 16px 30px;
+  }
 }
 
 @keyframes animate-loading {
